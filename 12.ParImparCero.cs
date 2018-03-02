@@ -13,11 +13,11 @@ class ParImparCero
 			Num = Convert.ToInt32(Console.ReadLine());
 
 			if(Num == 0)
-				Console.WriteLine("El numero es cero");
+				Console.WriteLine("El numero ingresado es cero");
 			else if(Num % 2 == 0)
-				Console.WriteLine(Num + "Es un numero par");
+				Console.WriteLine("El numero " Num + " es par");
 			else 
-				Console.WriteLine(Num + "Es un numero impar");
+				Console.WriteLine("El numero " Num + " es impar");
 		}
 	}
 }
